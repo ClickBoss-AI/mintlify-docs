@@ -9,15 +9,6 @@
   },
   "favicon": "/favicon.ico",
   "navigation": {
-    "global": {
-      "anchors": [
-{
-          "anchor": "Get Started Free",
-          "icon": "rocket",
-          "href": "https://www.clickboss.ai"
-        }
-      ]
-    },
     "tabs": [
       {
         "tab": "Docs",
