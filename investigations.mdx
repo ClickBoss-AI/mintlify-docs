@@ -1,0 +1,75 @@
+---
+title: "Investigations"
+description: "Investigations are deep AI-powered analyses you can trigger from any alert, insight, or question. They pull live data, diagnose the issue, and recommend what to do next."
+keywords: ["investigations", "AI analysis", "marketing investigation", "root cause analysis", "data diagnosis"]
+---
+
+An investigation is a deep dive. You trigger it when something in your data needs explanation: a ROAS drop, a spend anomaly, a funnel change, or any question that does not have an obvious answer.
+
+ClickBoss pulls the relevant data across your connected platforms, runs the analysis, and walks through its diagnosis step by step. You see the work as it happens.
+
+## When to use an investigation
+
+<AccordionGroup>
+  <Accordion title="You see an alert and want to know why">
+    Your morning briefing surfaced a Risk signal. Clicking **Investigate** on the card opens a full investigation into that specific issue, with the alert context pre-loaded.
+  </Accordion>
+  <Accordion title="You have a question that cannot be answered from a dashboard">
+    Ask something in plain English. For example: "Why did my blended CPA go up this week?" or "Which ad sets are pulling down my Meta performance?" ClickBoss runs the analysis and returns a structured answer.
+  </Accordion>
+  <Accordion title="A playbook flagged something and you want to go deeper">
+    Sensor playbooks surface findings in your briefing. If a finding needs more context, launch an investigation from it to drill down.
+  </Accordion>
+</AccordionGroup>
+
+## How an investigation runs
+
+When you start an investigation, ClickBoss shows you the process live:
+
+1. **Connecting platforms** -- identifies which integrations are relevant to your question.
+2. **Cross-referencing data** -- pulls the specific metrics and time ranges needed.
+3. **Building diagnosis** -- correlates signals across platforms to isolate the cause.
+4. **Generating recommendations** -- returns what the data says and what you should do next.
+
+You can watch each step as it happens. Most investigations complete in under a minute.
+
+## Where to start an investigation
+
+| Entry point | How it works |
+|---|---|
+| From an alert | Click **Investigate** on any Risk, Growth, or Forecast card |
+| From an insight | Open a saved insight and click **Investigate** for a follow-up |
+| From chat | Type your question into the chat on your project dashboard |
+| From a playbook result | Open a playbook finding and launch a deeper investigation |
+
+## Investigations vs Playbooks
+
+Both use live data and return structured answers, but they serve different purposes:
+
+<Tabs>
+  <Tab title="Investigation">
+    One-off deep dive triggered from a specific alert, insight, or question. Pre-loaded with context. Best when you need to understand *why* something happened.
+  </Tab>
+  <Tab title="Playbook">
+    Saved analysis template you can reuse and schedule. Best when you want to monitor the same thing repeatedly or let a sensor watch it in the background.
+  </Tab>
+</Tabs>
+
+<Tip>If an investigation turns out to be something you would want to run regularly, save it as a playbook when you are done. See [Run a playbook](/playbooks/run-a-playbook) for how.</Tip>
+
+## Credit usage
+
+Investigations use action credits. The number depends on the depth of the analysis and how many platforms are queried. You see the estimated cost before the investigation runs.
+
+See [Action Credits](/action-credits/overview) for more.
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card icon="bookmark" href="/insight-vault" title="Insight Vault">
+    Every investigation is saved automatically. Find past ones in your vault.
+  </Card>
+  <Card icon="book" href="/playbooks/overview" title="Playbooks">
+    Turn a useful investigation into a reusable playbook.
+  </Card>
+</CardGroup>

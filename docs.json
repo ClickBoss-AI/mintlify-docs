@@ -27,10 +27,18 @@
         "tab": "Features",
         "groups": [
           {
-            "group": "Morning Briefing",
+            "group": "Daily priorities",
             "pages": [
               "morning-briefing/overview",
-              "morning-briefing/how-to-read-it"
+              "morning-briefing/how-to-read-it",
+              "strategy-bar"
+            ]
+          },
+          {
+            "group": "Analysis",
+            "pages": [
+              "investigations",
+              "insight-vault"
             ]
           },
           {
@@ -39,6 +47,12 @@
               "playbooks/overview",
               "playbooks/run-a-playbook",
               "playbooks/sensor-mode"
+            ]
+          },
+          {
+            "group": "Workspace",
+            "pages": [
+              "team"
             ]
           },
           {

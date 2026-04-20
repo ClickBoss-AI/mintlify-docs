@@ -1,0 +1,80 @@
+---
+title: "Workspace & Team"
+description: "How ClickBoss workspaces work: inviting team members, assigning roles, and sharing integrations across projects."
+keywords: ["workspace", "team members", "invite team", "user roles", "shared integrations", "ClickBoss team"]
+---
+
+Everyone in ClickBoss belongs to a **workspace**. Projects, integrations, and insights are scoped to the workspace. When you invite someone, they join your workspace and can work on any project inside it.
+
+This makes it easy to collaborate without every team member needing admin access to every connected platform.
+
+## Inviting team members
+
+1. Go to **Settings** and open the **People** tab.
+2. Click **Invite member**.
+3. Enter the email address and select a role.
+4. Send the invitation.
+
+The invitee receives an email with a link to join. Pending invitations show up in the People list until accepted.
+
+## Roles
+
+<AccordionGroup>
+  <Accordion title="Owner">
+    Full control over the workspace. Can invite, remove, and change roles for any member. Can disconnect integrations, delete projects, and manage billing.
+  </Accordion>
+  <Accordion title="Editor">
+    Can create and edit projects, connect integrations, run playbooks, and run investigations. Cannot manage billing or remove members.
+  </Accordion>
+  <Accordion title="Viewer">
+    Read-only access. Can view briefings, insights, and playbook results. Cannot run on-demand analysis or change settings.
+  </Accordion>
+</AccordionGroup>
+
+## Shared integrations
+
+Integrations are connected at the workspace level. When one team member connects Google Ads, every other workspace member can use that connection in any project.
+
+This matters for teams where a CMO does not personally have admin access to Meta or Google Ads. An analyst or agency contact can connect the platform once, and the whole team benefits.
+
+<Info>Because integrations are shared, disconnecting one affects everyone. Only Owners should disconnect integrations, and only after checking with the team.</Info>
+
+## Managing members
+
+From the **People** tab, you can:
+
+- Change a member's role by clicking the role dropdown next to their name
+- Remove a member from the workspace
+- Revoke a pending invitation before it is accepted
+
+## Multiple workspaces
+
+One user can belong to more than one workspace. For example, an agency analyst might have their own workspace for internal work plus separate workspaces for each client. Switch between them using the workspace switcher in the sidebar.
+
+## Frequently asked questions
+
+<AccordionGroup>
+  <Accordion title="How many members can I invite?">
+    Member limits depend on your plan. See the [pricing page](https://www.clickboss.ai/pricing) for details.
+  </Accordion>
+  <Accordion title="Do Viewers use action credits?">
+    No. Viewers cannot trigger on-demand actions, so they do not consume credits. Morning briefings and sensor findings are available to all roles at no credit cost.
+  </Accordion>
+  <Accordion title="Can I move a project to a different workspace?">
+    Not currently. If you need to move a project between workspaces, contact [support@clickboss.ai](mailto:support@clickboss.ai).
+  </Accordion>
+  <Accordion title="What happens when I remove a member?">
+    They lose access to the workspace immediately. Any insights, playbooks, or projects they created stay in the workspace.
+  </Accordion>
+</AccordionGroup>
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card icon="plug" href="/integrations/overview" title="Integrations">
+    Connected integrations are shared across the entire workspace.
+  </Card>
+  <Card icon="coins" href="/action-credits/overview" title="Action Credits">
+    Credits are pooled at the workspace level.
+  </Card>
+</CardGroup>
