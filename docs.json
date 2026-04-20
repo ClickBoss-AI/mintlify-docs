@@ -94,5 +94,16 @@
     "socials": {
       "linkedin": "https://www.linkedin.com/company/clickboss/"
     }
+  },
+  "seo": {
+    "metatags": {
+      "og:site_name": "ClickBoss Docs",
+      "og:type": "website",
+      "og:image": "https://www.clickboss.ai/assets/images/dashboard-preview.png",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@clickbossai",
+      "robots": "index, follow"
+    },
+    "indexing": "all"
   }
 }
