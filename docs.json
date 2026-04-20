@@ -11,16 +11,21 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Docs",
+        "tab": "Introduction",
         "groups": [
           {
-            "group": "Getting Started",
+            "group": "Getting started",
             "pages": [
               "index",
               "getting-started/quickstart",
               "getting-started/connect-integrations"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Features",
+        "groups": [
           {
             "group": "Morning Briefing",
             "pages": [
@@ -37,15 +42,25 @@
             ]
           },
           {
-            "group": "Action Credits",
+            "group": "Billing",
             "pages": [
               "action-credits/overview"
             ]
+          }
+        ]
+      },
+      {
+        "tab": "Integrations",
+        "groups": [
+          {
+            "group": "About integrations",
+            "pages": [
+              "integrations/overview"
+            ]
           },
           {
-            "group": "Integrations",
+            "group": "Platforms",
             "pages": [
-              "integrations/overview",
               "integrations/meta-ads",
               "integrations/google-ads",
               "integrations/google-analytics",
