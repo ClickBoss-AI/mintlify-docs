@@ -1,0 +1,59 @@
+---
+title: "Google Analytics 4"
+description: "Connect GA4 to bring sessions, traffic sources, conversions, funnel behaviour, and user data into ClickBoss."
+---
+
+## What ClickBoss reads from Google Analytics 4
+
+| Data | Details |
+|---|---|
+| Sessions | Volume, trends, and breakdowns by source and medium |
+| Traffic sources | Organic, paid, direct, email, referral, and social |
+| Users | New vs returning, geographic breakdown |
+| Conversions | Goal completions and key events |
+| Funnel behaviour | Drop-off rates across your defined conversion paths |
+| Page performance | Top pages by sessions, engagement rate, and scroll depth |
+| Bounce and engagement rate | Session quality indicators |
+| Revenue | Ecommerce transaction data (if GA4 ecommerce is configured) |
+
+All access is read-only.
+
+## How to connect
+
+1. Go to **Settings** in your ClickBoss workspace.
+2. Under **Integrations**, click **Connect** next to Google Analytics 4.
+3. You will be redirected to Google to authorise access.
+4. Sign in with the Google account that has access to your GA4 properties.
+5. Grant the required permissions and return to ClickBoss.
+6. Select the GA4 property you want to use.
+
+If you have multiple GA4 properties, select the one that covers your primary website or store.
+
+## Permissions required
+
+The Google account used to connect must have at least **Viewer** access to the GA4 property. ClickBoss does not require Editor or Admin access.
+
+## What ClickBoss uses this data for
+
+- **Morning briefing** — Traffic drops, conversion rate changes, and unusual source shifts
+- **Playbooks** — Funnel drop-off analysis, traffic source performance, organic vs paid traffic trends
+- **Investigation** — Ask questions like "has organic traffic dropped this month?" or "what is the conversion rate from paid traffic versus email?"
+- **Cross-channel context** — GA4 sessions and conversions help ClickBoss reconcile your paid spend against actual site behaviour
+
+## GA4 versus Universal Analytics
+
+ClickBoss connects to GA4 only. Universal Analytics (the previous version of Google Analytics) reached end of life in July 2023 and is no longer supported by Google. If you are still using a UA property, you will need to migrate to GA4 before connecting.
+
+## Frequently asked questions
+
+**Do I need to set up custom events in GA4 for ClickBoss to work?**
+No. ClickBoss works with whatever data GA4 is already collecting. You do not need to configure anything extra. If you have custom conversion events, ClickBoss will include them.
+
+**Can I connect more than one GA4 property?**
+Each ClickBoss project connects to one GA4 property. If you have multiple websites on separate properties, you can create separate projects for each.
+
+**My GA4 data looks different from my paid platform data.**
+This is normal. GA4 uses last-touch or data-driven attribution, which attributes conversions differently than Meta and Google Ads. The numbers will not match exactly.
+
+**Can I disconnect GA4?**
+Yes. Go to **Settings > Integrations** and click **Disconnect** next to Google Analytics 4.

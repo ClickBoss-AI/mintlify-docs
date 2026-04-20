@@ -1,0 +1,57 @@
+---
+title: "Google Ads"
+description: "Connect Google Ads to pull campaign performance, keyword data, search terms, spend, and quality scores into ClickBoss."
+---
+
+## What ClickBoss reads from Google Ads
+
+| Data | Details |
+|---|---|
+| Campaigns | Name, status, type (Search, Performance Max, Shopping, etc.) |
+| Ad groups | Name, status, CPC bids |
+| Keywords | Match type, status, bids, quality score |
+| Search terms | Actual queries that triggered your ads |
+| Spend | Daily and lifetime spend by campaign and ad group |
+| Impressions and clicks | Volume and rates |
+| Conversions | Conversion actions and values |
+| CPA | Cost per conversion by campaign |
+| ROAS | Conversion value divided by cost |
+| Quality Score | Keyword-level expected CTR, ad relevance, landing page experience |
+
+All data is read-only. ClickBoss never modifies bids, pauses keywords, or changes anything in your Google Ads account.
+
+## How to connect
+
+1. Go to **Settings** in your ClickBoss workspace.
+2. Under **Integrations**, click **Connect** next to Google Ads.
+3. You will be redirected to Google to authorise access.
+4. Sign in with the Google account that has access to your Google Ads account.
+5. Grant the requested permissions and return to ClickBoss.
+6. Select which Google Ads accounts to include.
+
+If you use a manager account (MCC), you can connect at the manager level and select individual accounts underneath it.
+
+## Permissions required
+
+ClickBoss requests read-only access. The Google account used to connect must have at least **Read-only** access to the Google Ads accounts you want to include.
+
+## What ClickBoss uses this data for
+
+- **Morning briefing** — Spend anomalies, CPA spikes, and keyword performance changes
+- **Playbooks** — Keyword analysis, search term review, quality score monitoring, budget pacing
+- **MER calculation** — Google Ads spend is included in total marketing spend
+- **Investigation** — Ask questions like "which Google Ads campaigns have the worst quality scores?" or "show me search terms that are converting at a high CPA"
+
+## Frequently asked questions
+
+**Can I connect a Google Ads manager account (MCC)?**
+Yes. Connect at the MCC level and then select the individual client accounts you want ClickBoss to pull data from.
+
+**Does ClickBoss support Performance Max campaigns?**
+Yes. ClickBoss pulls Performance Max campaign data at the campaign level. Granular asset-level breakdowns depend on what Google Ads makes available through its API.
+
+**Why does spend in ClickBoss differ from what I see in Google Ads?**
+Check that your workspace timezone matches your Google Ads account timezone. Also confirm you are comparing the same date ranges. Google Ads rounds some figures differently depending on currency.
+
+**Can I disconnect Google Ads?**
+Yes. Go to **Settings > Integrations** and click **Disconnect**. Historical synced data is retained.

@@ -1,0 +1,65 @@
+---
+title: "Shopify"
+description: "Connect your Shopify store to pull revenue, orders, MER, top products, and ecommerce funnel data into ClickBoss."
+---
+
+## What ClickBoss reads from Shopify
+
+| Data | Details |
+|---|---|
+| Revenue | Gross and net revenue by day |
+| Orders | Order count, average order value |
+| Refunds | Refund volume and its impact on net revenue |
+| Top products | Revenue and units sold per product |
+| MER | Marketing efficiency ratio (total revenue divided by total ad spend) |
+| Ecommerce funnel | Sessions, add to cart, checkout initiated, purchase |
+| Customer breakdown | New vs returning customer orders |
+| Currency | Transaction currency from your store |
+
+All data is read-only. ClickBoss does not write to, create, or modify anything in your Shopify store.
+
+## How to connect
+
+1. Go to **Settings** in your ClickBoss workspace.
+2. Under **Integrations**, click **Connect** next to Shopify.
+3. Enter your Shopify store URL (for example, `yourstore.myshopify.com`).
+4. You will be redirected to Shopify to authorise the connection.
+5. Review the permissions and click **Install app**.
+6. You will be returned to ClickBoss with the store connected.
+
+## Permissions required
+
+ClickBoss installs as a private app on your Shopify store with read-only permissions covering orders, products, and analytics. No write permissions are requested.
+
+You must be a Shopify store owner or have staff access with sufficient permissions to install apps.
+
+## What ClickBoss uses this data for
+
+- **Morning briefing** — Revenue vs target, MER trends, and order volume anomalies
+- **MER calculation** — Shopify revenue is the numerator in your blended MER (total revenue divided by total ad spend across Meta and Google)
+- **Playbooks** — Product performance analysis, MER monitoring, funnel drop-off tracking
+- **Investigation** — Ask questions like "how does this week's revenue compare to last week?" or "which products are driving the most revenue right now?"
+
+## MER and how Shopify data powers it
+
+MER (Marketing Efficiency Ratio) is calculated as:
+
+```
+MER = Total Revenue (Shopify) / Total Ad Spend (Meta + Google Ads)
+```
+
+This is one of the primary metrics ClickBoss tracks in your morning briefing. When your MER drops, ClickBoss flags it and helps you identify whether spend went up, revenue dropped, or both.
+
+## Frequently asked questions
+
+**Does ClickBoss support multiple Shopify stores?**
+Each ClickBoss project connects to one Shopify store. If you operate multiple stores, create a separate project for each.
+
+**Does ClickBoss work with Shopify Plus?**
+Yes. The connection process is the same for standard Shopify and Shopify Plus.
+
+**Why does my ClickBoss revenue not match my Shopify dashboard?**
+Check that you are comparing the same date range and that refunds are being factored in consistently. ClickBoss shows net revenue by default (after refunds). Shopify's dashboard can show either depending on the view.
+
+**Can I disconnect Shopify?**
+Yes. Go to **Settings > Integrations** and click **Disconnect** next to Shopify. You can also uninstall the app directly from your Shopify admin under **Apps**.

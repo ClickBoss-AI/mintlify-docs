@@ -1,82 +1,70 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "ClickBoss Documentation",
+  "name": "ClickBoss Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#02DBFF",
+    "light": "#02DBFF",
+    "dark": "#00B8D9"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "icon": "book-open-cover",
-          "href": "https://mintlify.com/docs"
+          "anchor": "Marketing Site",
+          "icon": "house",
+          "href": "https://www.clickboss.ai"
         },
         {
-          "anchor": "Blog",
-          "icon": "newspaper",
-          "href": "https://mintlify.com/blog"
+          "anchor": "Get Started Free",
+          "icon": "rocket",
+          "href": "https://www.clickboss.ai/pricing"
         }
       ]
     },
     "tabs": [
       {
-        "tab": "Introduction",
+        "tab": "Docs",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "getting-started/quickstart",
+              "getting-started/connect-integrations"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Morning Briefing",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "morning-briefing/overview",
+              "morning-briefing/how-to-read-it"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Playbooks",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "playbooks/overview",
+              "playbooks/run-a-playbook",
+              "playbooks/sensor-mode"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Action Credits",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "action-credits/overview"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Integrations",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "integrations/overview",
+              "integrations/meta-ads",
+              "integrations/google-ads",
+              "integrations/google-analytics",
+              "integrations/shopify",
+              "integrations/hubspot"
             ]
           }
         ]
@@ -91,32 +79,18 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@clickboss.ai"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Open App",
+      "href": "https://www.clickboss.ai"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://linkedin.com/company/clickboss-ai"
     }
   }
 }

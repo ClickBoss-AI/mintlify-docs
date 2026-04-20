@@ -1,0 +1,56 @@
+---
+title: "Connect Your Integrations"
+description: "How to connect Meta Ads, Google Ads, Google Analytics 4, Shopify, and HubSpot to ClickBoss."
+---
+
+ClickBoss connects to your marketing platforms via OAuth. You authorise the connection once and ClickBoss reads your data automatically from that point on.
+
+## Supported platforms
+
+| Platform | What ClickBoss reads |
+|---|---|
+| Meta Ads | Campaign spend, ROAS, CPA, ad set performance |
+| Google Ads | Campaign spend, keywords, search terms, quality scores |
+| Google Analytics 4 | Sessions, traffic sources, conversions, funnel metrics |
+| Shopify | Revenue, orders, products, MER |
+| HubSpot | Pipeline health, deal stages, MQL volume |
+
+## How to connect a platform
+
+1. Open your project in ClickBoss.
+2. Click **Connect a platform** or go to **Project Settings** and select the **Integrations** tab.
+3. Click the platform you want to connect.
+4. You will be redirected to that platform to authorise access.
+5. Once authorised, you are returned to ClickBoss and the connection is live.
+
+<Warning>Make sure you are logged into the correct account on each platform before starting the OAuth flow. For example, if you manage multiple Google Ads accounts, confirm you are logged into the right one.</Warning>
+
+## Workspace-level connections
+
+If you are part of a ClickBoss workspace with multiple members, any team member can connect a platform and all workspace members can use that connection. A CMO does not need admin access to Meta Ads if an analyst on the team has already connected it.
+
+## What happens after you connect
+
+As soon as a platform is connected, ClickBoss runs an immediate scan. This is separate from the 8:30am morning briefing. Early insights appear on your project home screen within a few minutes.
+
+From that point, ClickBoss monitors your connected platforms continuously and includes them in your daily morning briefing.
+
+## Platform-specific guides
+
+<CardGroup cols={2}>
+  <Card icon="f" href="/integrations/meta-ads" title="Meta Ads">
+    Connect your Meta Ads account.
+  </Card>
+  <Card icon="g" href="/integrations/google-ads" title="Google Ads">
+    Connect your Google Ads account.
+  </Card>
+  <Card icon="chart-line" href="/integrations/google-analytics" title="Google Analytics 4">
+    Connect your GA4 property.
+  </Card>
+  <Card icon="bag-shopping" href="/integrations/shopify" title="Shopify">
+    Connect your Shopify store.
+  </Card>
+  <Card icon="h" href="/integrations/hubspot" title="HubSpot">
+    Connect your HubSpot account.
+  </Card>
+</CardGroup>

@@ -1,0 +1,63 @@
+---
+title: "Meta Ads"
+description: "Connect your Meta Ads account to pull campaign performance, creative data, ROAS, CPA, and spend into ClickBoss."
+---
+
+## What ClickBoss reads from Meta Ads
+
+Once connected, ClickBoss pulls the following data:
+
+| Data | Details |
+|---|---|
+| Campaigns | Name, status, objective, budget type |
+| Ad sets | Targeting, bid strategy, daily budget |
+| Ads | Creative name, format, status |
+| Spend | Daily and lifetime spend per campaign and ad set |
+| Impressions and reach | By campaign, ad set, and ad |
+| Clicks and CTR | Link clicks and click-through rate |
+| Conversions | Purchase events, leads, and custom events |
+| ROAS | Return on ad spend from Meta's attribution window |
+| CPA | Cost per result by campaign |
+| Frequency | Average number of times each person saw your ad |
+
+All data is read-only. ClickBoss never creates, pauses, edits, or deletes anything in your Meta account.
+
+## How to connect
+
+1. Go to **Settings** in your ClickBoss workspace.
+2. Under **Integrations**, click **Connect** next to Meta Ads.
+3. You will be redirected to Meta to authorise access.
+4. Log in with the account that has access to the ad accounts you want to use.
+5. Grant the requested permissions and return to ClickBoss.
+6. Select the ad accounts you want to include.
+
+If you manage multiple ad accounts under a Business Manager, you can select which ones to connect.
+
+## Permissions required
+
+ClickBoss requests read-only access to your ad accounts. You do not need to grant any permissions beyond viewing ads and insights.
+
+The Meta login must have at least **Advertiser** access to the ad accounts you want to connect.
+
+## What ClickBoss uses this data for
+
+Meta Ads data powers several parts of ClickBoss:
+
+- **Morning briefing** — ROAS drops, spend anomalies, and creative fatigue flags
+- **Playbooks** — Creative performance analysis, budget pacing checks, CPA monitoring
+- **MER calculation** — Meta spend is included in total marketing spend when calculating your blended MER
+- **Investigation** — Ask questions like "which Meta campaigns are underperforming versus last month?"
+
+## Frequently asked questions
+
+**Can I connect multiple Meta ad accounts?**
+Yes. You can connect multiple ad accounts from the same Business Manager or different ones. Select all the accounts you want during the connection flow.
+
+**What attribution window does ClickBoss use?**
+ClickBoss pulls the data Meta reports, which defaults to a 7-day click and 1-day view attribution window. If you use a different window in Meta, the numbers in ClickBoss will reflect that.
+
+**My data looks different from what I see in Meta Ads Manager.**
+Meta data can differ slightly depending on attribution settings and reporting timezone. Check that your ClickBoss workspace timezone matches your Meta account timezone.
+
+**Can I disconnect Meta Ads?**
+Yes. Go to **Settings > Integrations** and click **Disconnect** next to Meta Ads. This removes the connection but does not delete historical data already synced.

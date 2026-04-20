@@ -1,0 +1,65 @@
+---
+title: "HubSpot"
+description: "Connect HubSpot to pull pipeline health, deal stages, MQL volume, and funnel conversion data into ClickBoss."
+---
+
+## What ClickBoss reads from HubSpot
+
+| Data | Details |
+|---|---|
+| Contacts | Total contacts, new contacts by date |
+| MQLs | Marketing qualified leads and volume over time |
+| SQLs | Sales qualified leads and conversion rate from MQL |
+| Deals | Pipeline value, deal count, stage breakdown |
+| Deal stages | How many deals are in each stage of your pipeline |
+| Won/lost deals | Close rate and lost deal volume |
+| Funnel conversion | MQL to SQL to Closed Won rates |
+| Revenue attribution | Closed deal value tied to marketing sources |
+
+All access is read-only. ClickBoss never creates contacts, modifies deals, or changes anything in your HubSpot account.
+
+## How to connect
+
+1. Go to **Settings** in your ClickBoss workspace.
+2. Under **Integrations**, click **Connect** next to HubSpot.
+3. You will be redirected to HubSpot to authorise access.
+4. Sign in and select the HubSpot account you want to connect.
+5. Review the permissions and click **Connect app**.
+6. You will be returned to ClickBoss with the connection active.
+
+## Permissions required
+
+The HubSpot account used to authorise must have CRM access. ClickBoss requests read permissions on contacts, deals, and pipelines. Write access is not requested.
+
+## What ClickBoss uses this data for
+
+HubSpot is primarily used for B2B and lead-generation businesses. If your marketing goal is generating and converting leads (rather than direct ecommerce revenue), HubSpot data helps ClickBoss track what actually matters:
+
+- **Morning briefing** — MQL volume drops, pipeline stalls, and conversion rate changes
+- **Playbooks** — Pipeline health checks, MQL-to-SQL conversion monitoring, deal stage distribution
+- **Investigation** — Ask questions like "has our MQL volume dropped this month?" or "how many deals are stuck in proposal stage?"
+- **Funnel visibility** — Connect paid spend on Meta or Google to how many leads actually became deals
+
+## B2B funnel tracking
+
+For teams running paid acquisition into a sales funnel, ClickBoss can combine HubSpot data with your ad platform spend to calculate:
+
+- Cost per MQL
+- Cost per SQL
+- Cost per closed deal
+
+This gives you a clearer picture of which campaigns are producing pipeline, not just leads.
+
+## Frequently asked questions
+
+**Which HubSpot hubs does ClickBoss require?**
+ClickBoss works with HubSpot CRM data, which is available across all HubSpot tiers including the free CRM. Marketing Hub, Sales Hub, and Service Hub data can be included if available in your account.
+
+**Can I connect multiple HubSpot accounts?**
+Each ClickBoss workspace connects to one HubSpot account. If you need to monitor multiple HubSpot instances, contact support.
+
+**Does ClickBoss support custom deal stages?**
+Yes. ClickBoss reads whatever pipeline stages exist in your HubSpot account, including custom ones you have created.
+
+**Can I disconnect HubSpot?**
+Yes. Go to **Settings > Integrations** and click **Disconnect** next to HubSpot. You can also revoke access directly from your HubSpot account under **Settings > Integrations > Connected Apps**.
