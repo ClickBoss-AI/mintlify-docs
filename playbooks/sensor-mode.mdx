@@ -18,7 +18,7 @@ That is it. The playbook now runs automatically on the schedule you set.
 
 When a sensor detects something, the finding surfaces in your **morning briefing** as a RISK or GROWTH signal. You will see it the next morning alongside your other priorities.
 
-You will not receive a separate notification every time the sensor runs. If it runs and finds nothing, nothing happens. You only hear about it when something is worth flagging.
+<Info>You will not receive a separate notification every time the sensor runs. If it runs and finds nothing, nothing happens. You only hear about it when something is worth flagging.</Info>
 
 ## Pausing and stopping sensors
 
@@ -36,11 +36,25 @@ Playbooks and sensors can be shared with other members of your ClickBoss workspa
 
 ## Frequently asked questions
 
-**Can I have multiple sensors running at once?**
-Yes. There is no limit on the number of active sensors. Each one runs independently on its own schedule.
+<AccordionGroup>
+  <Accordion title="Can I have multiple sensors running at once?">
+    Yes. There is no limit on the number of active sensors. Each one runs independently on its own schedule.
+  </Accordion>
+  <Accordion title="What if the sensor runs but my platform is not connected?">
+    ClickBoss will note in the briefing that the sensor could not complete due to a missing integration and tell you which platform needs to be connected.
+  </Accordion>
+  <Accordion title="Can I set a threshold for when the sensor alerts me?">
+    Thresholds are built into the playbook logic. For example, a creative fatigue playbook might only alert when CTR drops more than 20%. You can adjust these by editing the playbook before enabling sensor mode.
+  </Accordion>
+</AccordionGroup>
 
-**What if the sensor runs but my platform is not connected?**
-ClickBoss will note in the briefing that the sensor could not complete due to a missing integration and tell you which platform needs to be connected.
+## Next steps
 
-**Can I set a threshold for when the sensor alerts me?**
-Thresholds are built into the playbook logic. For example, a creative fatigue playbook might only alert when CTR drops more than 20%. You can adjust these by editing the playbook before enabling sensor mode.
+<CardGroup cols={2}>
+  <Card icon="play" href="/playbooks/run-a-playbook" title="Run a playbook">
+    Run a playbook manually before setting it up as a sensor.
+  </Card>
+  <Card icon="sun" href="/morning-briefing/overview" title="Morning Briefing">
+    Learn how sensor findings appear in your daily briefing.
+  </Card>
+</CardGroup>

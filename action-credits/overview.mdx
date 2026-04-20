@@ -5,9 +5,14 @@ description: "Action credits are how ClickBoss accounts for the cost of AI-power
 
 ClickBoss runs two types of activity:
 
-**Automatic** — Things that happen on a schedule without you doing anything. Your morning briefing is automatic. Sensor playbooks are automatic. These do not use action credits.
-
-**On-demand** — Things you trigger yourself. Running a playbook manually, starting an investigation, asking ClickBoss to dig into a specific problem. These use action credits.
+<Tabs>
+  <Tab title="Automatic (free)">
+    Things that happen on a schedule without you doing anything. Your morning briefing is automatic. Sensor playbook findings are automatic. These do not use action credits.
+  </Tab>
+  <Tab title="On-demand (uses credits)">
+    Things you trigger yourself. Running a playbook manually, starting an investigation, asking ClickBoss to dig into a specific problem. These use action credits.
+  </Tab>
+</Tabs>
 
 ## What uses credits
 
@@ -38,11 +43,25 @@ Your current credit balance is shown in the workspace switcher in the sidebar. Y
 
 ## Frequently asked questions
 
-**What happens when I run out of credits?**
-On-demand actions will be paused until your credits reset at the start of the next billing period or until you purchase a top-up. Your morning briefing and sensor playbooks continue to run regardless of your credit balance.
+<AccordionGroup>
+  <Accordion title="What happens when I run out of credits?">
+    On-demand actions will be paused until your credits reset at the start of the next billing period or until you purchase a top-up. Your morning briefing and sensor playbooks continue to run regardless of your credit balance.
+  </Accordion>
+  <Accordion title="Do credits reset monthly?">
+    Yes. Credits reset on your billing renewal date each month.
+  </Accordion>
+  <Accordion title="Can I see which actions used the most credits?">
+    Yes. The usage breakdown in Settings shows credit consumption by action type.
+  </Accordion>
+</AccordionGroup>
 
-**Do credits reset monthly?**
-Yes. Credits reset on your billing renewal date each month.
+## Next steps
 
-**Can I see which actions used the most credits?**
-Yes. The usage breakdown in Settings shows credit consumption by action type.
+<CardGroup cols={2}>
+  <Card icon="book" href="/playbooks/overview" title="Playbooks">
+    Learn about playbooks and how they use credits.
+  </Card>
+  <Card icon="link" href="/integrations/overview" title="Integrations">
+    Connecting platforms is always free. See what ClickBoss supports.
+  </Card>
+</CardGroup>

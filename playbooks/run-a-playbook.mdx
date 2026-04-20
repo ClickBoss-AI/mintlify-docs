@@ -23,11 +23,11 @@ ClickBoss pulls your live data, runs the analysis, and returns the results. For 
 
 Each playbook returns a structured response:
 
-- **Summary** — What the playbook found in plain language
-- **Data table** — The underlying numbers that support the finding
-- **Recommendation** — What to do next
+- **Summary** -- What the playbook found in plain language
+- **Data table** -- The underlying numbers that support the finding
+- **Recommendation** -- What to do next
 
-If the playbook found nothing to flag, it will say so. An empty result is useful information.
+<Tip>If the playbook found nothing to flag, it will say so. An empty result is useful information. It means this area of your account is healthy.</Tip>
 
 ## Saving an investigation as a playbook
 
@@ -45,3 +45,14 @@ This lets you replay the same analysis against fresh data whenever you need it.
 Running a playbook uses action credits. The number of credits depends on the complexity of the playbook and how many platforms it queries. You can see the estimated credit cost before running.
 
 See [Action Credits](/action-credits/overview) for more detail.
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card icon="radar" href="/playbooks/sensor-mode" title="Sensor mode">
+    Automate this playbook so it runs on a schedule.
+  </Card>
+  <Card icon="coins" href="/action-credits/overview" title="Action Credits">
+    Understand how credits are used when running playbooks.
+  </Card>
+</CardGroup>

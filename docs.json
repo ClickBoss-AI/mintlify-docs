@@ -7,19 +7,14 @@
     "light": "#02DBFF",
     "dark": "#00B8D9"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "global": {
       "anchors": [
-        {
-          "anchor": "Marketing Site",
-          "icon": "house",
-          "href": "https://www.clickboss.ai"
-        },
-        {
+{
           "anchor": "Get Started Free",
           "icon": "rocket",
-          "href": "https://www.clickboss.ai/pricing"
+          "href": "https://www.clickboss.ai"
         }
       ]
     },
@@ -73,7 +68,8 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "https://www.clickboss.ai"
   },
   "navbar": {
     "links": [

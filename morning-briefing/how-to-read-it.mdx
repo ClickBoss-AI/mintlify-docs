@@ -47,21 +47,35 @@ The FORECAST card shows whether you are on track to hit your monthly targets.
 | On track | Current pace will hit target if it holds |
 | At risk | You are behind and need to adjust |
 | Over budget | Spend is tracking above target |
-| Ahead of target | Revenue is running ahead — consider whether targets need revising |
+| Ahead of target | Revenue is running ahead. Consider whether targets need revising |
 
 **How to act on it:**
 If the forecast shows a gap, look at the RISK card first. Often the same issue that created a risk signal is also what is pulling the forecast off track.
 
 ## Frequently asked questions
 
-**What if I do not have targets set?**
-The RISK and GROWTH cards still work without targets. The FORECAST card will have limited output. Set your monthly targets in Project Settings for the full forecast.
+<AccordionGroup>
+  <Accordion title="What if I do not have targets set?">
+    The RISK and GROWTH cards still work without targets. The FORECAST card will have limited output. Set your monthly targets in Project Settings for the full forecast.
+  </Accordion>
+  <Accordion title="Can I see yesterday's briefing?">
+    Yes. Open your project dashboard and scroll to the briefing history section.
+  </Accordion>
+  <Accordion title="Why did I not receive a briefing today?">
+    Check that at least one integration is connected and active. If a connected platform had an API outage overnight, the briefing may be incomplete. ClickBoss will flag this in the briefing itself.
+  </Accordion>
+  <Accordion title="What does 'vs baseline' mean?">
+    ClickBoss compares today's metrics against a rolling baseline, typically a 7-day or 30-day average depending on the metric. This filters out day-of-week variation and surfaces genuine changes.
+  </Accordion>
+</AccordionGroup>
 
-**Can I see yesterday's briefing?**
-Yes. Open your project dashboard and scroll to the briefing history section.
+## Next steps
 
-**Why did I not receive a briefing today?**
-Check that at least one integration is connected and active. If a connected platform had an API outage overnight, the briefing may be incomplete. ClickBoss will flag this in the briefing itself.
-
-**What does "vs baseline" mean?**
-ClickBoss compares today's metrics against a rolling baseline, typically a 7-day or 30-day average depending on the metric. This filters out day-of-week variation and surfaces genuine changes.
+<CardGroup cols={2}>
+  <Card icon="book" href="/playbooks/overview" title="Playbooks">
+    Run deeper analysis or automate monitoring with playbooks.
+  </Card>
+  <Card icon="coins" href="/action-credits/overview" title="Action Credits">
+    Understand which actions use credits and which are free.
+  </Card>
+</CardGroup>
