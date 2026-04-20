@@ -7,7 +7,7 @@
     "light": "#02DBFF",
     "dark": "#00B8D9"
   },
-  "favicon": "/favicon.png",
+  "favicon": "/favicon.ico",
   "navigation": {
     "global": {
       "anchors": [
@@ -67,8 +67,8 @@
     ]
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg",
+    "light": "/logo/dark.png",
+    "dark": "/logo/dark.png",
     "href": "https://www.clickboss.ai"
   },
   "navbar": {
@@ -86,7 +86,7 @@
   },
   "footer": {
     "socials": {
-      "linkedin": "https://linkedin.com/company/clickboss-ai"
+      "linkedin": "https://www.linkedin.com/company/clickboss/"
     }
   }
 }
